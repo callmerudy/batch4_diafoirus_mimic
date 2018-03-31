@@ -26,8 +26,8 @@ Now, move to the directory we'll use for storing the data
 
 **Warning:** replace `{EMAIL}` with the email you used to log in physionet.org.
 
-    $ wget --user {EMAIL} --ask-password -P mimic_data -A csv.gz -m -p -E -k -K -np -nd https://physionet.org/works/MIMICIIIClinicalDatabase/files/
-    
+    $ wget --user {EMAIL} --ask-password -A csv.gz -m -p -E -k -K -np -nd https://physionet.org/works/MIMICIIIClinicalDatabaseDemo/files/ 
+
 *You will be prompted to enter your physionet.org password.*
 
 This will download all the `csv.gz` (compressed CSV) files that composed the database. The compressed CSVs are about 6 GB in total, so it may take a while!
