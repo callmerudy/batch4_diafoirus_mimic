@@ -12,10 +12,10 @@ If you don't know anything about Docker, you may want to start by following the 
 
 Starting from now, we assume that [Docker is installed](https://docs.docker.com/install/) on your machine, as well as [docker-compose](https://docs.docker.com/compose/install/), a program we will use to build the Docker container.
 
-## 1. Clone the Github repository on your machine
+## 1. Clone this Github repository on your machine
 
-    $ git clone git@github.com:edouardtheron/diafoirus-mimic.git
-    $ cd diafoirus-mimic
+    $ git clone git@github.com:dataforgoodfr/batch4_diafoirus_mimic.git
+    $ cd batch4_diafoirus_mimic
     
 ## 2. Get the data
 Now, move to the directory we'll use for storing the data
