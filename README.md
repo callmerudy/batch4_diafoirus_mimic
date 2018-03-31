@@ -30,6 +30,8 @@ Now, move to the directory we'll use for storing the data
 
 *You will be prompted to enter your physionet.org password.*
 
+`NOTE` This is **only the test database** (light version). We are currently working on making sure that everything works with the actual/enormous database.
+
 This will download all the `csv.gz` (compressed CSV) files that composed the database. The compressed CSVs are about 6 GB in total, so it may take a while!
 
 ---
