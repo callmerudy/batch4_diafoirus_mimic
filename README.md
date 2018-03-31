@@ -50,6 +50,8 @@ This is the magic command :)
 
 **This can take a while**, since it has to copy all the data to the container's system. 
 
+*`NOTE` Sometimes, the process will exit with this message `ERROR: Service 'postgres' failed to build`. In that case, try re-launching the same command, as it can work with no problem the second time.*
+
 When it's done, the container should be up and running with a seeded postgres on port `5432`. You're now free to connect to it.
 
 If you want to connect to the database through the terminal keep reading, otherwise **congratulations, you are all set!**
