@@ -67,7 +67,7 @@ The following steps are optionnal, or are just provided as complementary observa
     
 You should have a shell access to the container. 
 
-`NOTE` You are now executing command **inside** the container, and not on your local machine anymore. You can exit the container with `CTRL-C`.
+`NOTE` after this command, you are executing **inside** the container, and not on your local machine anymore. You can exit the container with `CTRL-C`.
     
 ### Connect to postgres
 
@@ -82,7 +82,7 @@ If you don't see anything returning from this command, there is a problem :)
 
 Otherwise, congratulations! You can start querying the database, for example...
   
-    $ SELECT row_id FROM admissions limit10;
+    $ SELECT row_id FROM admissions limit 10;
 
 ... should return a list of the first 10 indexes of the `admissions` table.
 
