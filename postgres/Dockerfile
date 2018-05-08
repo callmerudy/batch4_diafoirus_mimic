@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:10.3
 
 RUN apt-get update \
     && apt-get install -y nano git make \
